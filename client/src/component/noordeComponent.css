@@ -1,0 +1,22 @@
+.noorderComp{
+    /* border: 1px solid black; */
+    height: 60vh;
+    top: 40px;
+    line-height: 2em;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.noorderText{
+    color: grey;
+    font-size: small;
+}
+.createbuttonnoorder{
+    font-size: small;
+    border: 1px solid #5861AE;
+    color: #5861AE;
+    padding: 0 2em;
+    border-radius: 0.5em;
+}

@@ -1,0 +1,10 @@
+.ordergridContainer{
+    overflow: scroll;
+    min-height: 83vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40px auto;
+}
+.verticalnav{
+    background-color: #5861AE;
+}

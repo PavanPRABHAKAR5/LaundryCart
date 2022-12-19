@@ -1,0 +1,56 @@
+.prevContainer {
+    padding: 2em 1em;
+    max-height: 200px;
+}
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+.topnav .ordercontainer {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav .search-container {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    
+}
+.formclass{
+    border-bottom: 1px solid black;
+}
+.staticinput{
+    float: right;
+    border: none;
+    border-bottom: 1px;
+}
+
+.createbutton {
+    /* float: right; */
+    padding: 0.1em 1.5em;
+    margin-right: 2em;
+    font-size: 14px;
+    font-family: Open Sans ;
+    letter-spacing: 0px;
+    border: 2px solid #3646da ;
+    
+    background-color: white;
+}
+.linkstyle{
+    text-decoration: none;
+}
+.tableprv{
+    text-align: center;
+}
+.prvsummaryPopup{
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}

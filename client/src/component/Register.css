@@ -1,0 +1,128 @@
+body{
+    width: 100vw;
+}
+
+.row{
+    width: 100vw;
+    margin: 0;
+  }
+
+.row .register{
+   
+    box-sizing: border-box;
+    padding: 20px;
+    padding-left: 60px;
+    width: 30vw;
+}
+.row .login-box{
+    width: 70vw;
+    background-color: #F8F9FF;
+}
+
+
+.header1-register2{
+    padding-top: 150px;
+    text-align: left;
+    font: normal normal 900 56px/70px Avenir;
+    letter-spacing: 2.48px;
+    color: #5861AE;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+.header3-register2{
+    text-align: left;
+    font: normal normal normal 20px/26px Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+}
+
+    .p-register2{
+        padding-top: 100px;
+        text-align: left;
+        font: normal normal normal 16px/26px Avenir;
+        letter-spacing: 0.64px;
+        color: #565657;
+        text-transform: capitalize;
+        opacity: 1;
+}
+        
+.header-register2{
+padding-top: 35px;
+text-align: left;
+font: normal normal medium 32px/60px Avenir;
+letter-spacing: 1.28px;
+color: #5861AE;
+text-transform: uppercase;
+opacity: 1;
+}
+
+.loginrow{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    /* height: 60vh; */
+}
+
+.loginrow .column{
+    text-align: center;
+    vertical-align: top;
+    margin: 0 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 60vh;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.input-signup2 {
+    padding: 5px;
+    background-color: #F8F9FF;
+    border: none;
+    border-bottom: 2px solid #5861AE;
+  }
+  
+  .input-signup2:focus{
+    outline: none;
+  }
+
+.check-box{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .btn-register2{
+width: 120px;
+height: 40px;
+border: 2px solid #4552C1;
+border-radius: 4px;
+opacity: 1;
+text-align: center;
+font: normal normal bold 15px/20px Open Sans;
+letter-spacing: 0.3px;
+color: #4552C1;
+opacity: 1;
+background-color: white;
+  }
+
+  .btn-2{
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    border: 2px solid #4552C1;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: white;
+    opacity: 1;
+    background-color: #4552C1;
+    margin-bottom: 30px;
+  }

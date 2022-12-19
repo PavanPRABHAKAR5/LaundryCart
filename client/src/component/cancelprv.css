@@ -1,0 +1,46 @@
+.box {
+    position: fixed;
+    top: 315px;
+    left: 517px;
+    width: 415px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+    z-index: 1;
+    border: 1px solid #5861AE;
+    padding: 0;
+  }
+  .cancelpopheader{
+    padding: 0.3em 0.7em;
+    background-color: #5861AE;
+    height: 2em;
+    color: white;
+  }
+  .alertprev{
+    float: left;
+  }
+  .close-icon {
+    float: right;
+  }
+  .alertsecondcont{
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    font-size: small;
+  }
+  .gridcontalert{
+    top: 0;
+    text-align: center;
+  }
+  .proceedbutton{
+    background-color: #5861AE;
+    border: none;
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.5em 2em;
+  }
+  .alertimage{
+    width: 2.5em;
+    height: 2.5em;
+  }

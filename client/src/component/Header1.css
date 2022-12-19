@@ -1,0 +1,42 @@
+body{
+    width: 100vw;
+}
+.navbar{
+    padding: 0%;
+    background-color: #FFFFFF;
+}
+.container-fluid{
+    background-color: #FFFFFF;
+}
+
+ .navbar-brand{
+    padding-left: 60px;
+    color: #5861AE;
+    letter-spacing: 1.8px;
+    font: normal normal 900 20px/27px Avenir;
+}
+
+ #navigation a{
+    float: right;
+    color: #565657;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    width: 100px;
+    /* height: 100%; */
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-item{
+    border: 1px solid#E3E3E3;
+}
+.nav-item:hover{
+    background-color: lightgray;
+}
+
+
+#active{
+    background-color:#5861AE;
+    color: white;
+}
